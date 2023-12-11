@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Календарь</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calendar">
+    <div class="calendar-header">
+      <button id="prev">Предыдущий</button>
+      <h2 id="month-year">Месяц Год</h2>
+      <button id="next">Следующий</button>
+    </div>
+    <div class="calendar-days" id="calendar-days"></div>
+  </div>
+
+  <div class="add-reminder">
+    <input type="date" id="reminder-date">
+    <input type="text" id="reminder-text" placeholder="Введите напоминание">
+    <button id="add-reminder">Добавить напоминание</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
